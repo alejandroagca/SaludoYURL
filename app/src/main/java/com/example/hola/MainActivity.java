@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
         else
-            {
-                Toast.makeText(this, "Error en la URL", Toast.LENGTH_SHORT).show();
-            }
+        {
+                Toast.makeText(this, "Error en la URL/No hay un navegador instalado", Toast.LENGTH_SHORT).show();
+        }
     }
 
 }
